@@ -4,13 +4,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <section>
-      <h1 class="Title">What's For Dinner?</h1>
-      <button class="recipe-button">ADD A RECIPE</button>
-    </section>
-    <section>
-      <h1 class="looking-for">What are you looking for?</h1>
-    </section>
+    <header>
+      <nav>
+        <h3>What's for Dinner?</h3>
+        <button>ADD A RECIPE</button>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <section>
+          <form>
+            <h2>What are you looking for?</h2>
+            <label>
+              <input type="radio" name="looking_for">Side
+            </label>
+            <label>
+              <input type="radio" name="looking_for">Main Dish
+            </label>
+            <label>
+              <input type="radio" name="looking_for">Dessert
+            </label>
+            <label>
+              <input type="radio" name="looking_for">Entire Meal
+            </label>
+          </form>
+          <button id="lets-cook">LET'S COOK!</button>
+        </section>
+        <section>
+          <img class="cookpot-image" src="assets/cookpot.svg" alt="overflowing pot">
+        </section>
+      </div>
+    </main>
   </body>
   <script type="text/javascript" src="main.js"></script>
 </html>
