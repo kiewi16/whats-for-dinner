@@ -1,3 +1,40 @@
+body {
+    background-image: url(assets/burger-friends.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0; 
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0fb9b1;
+    width: 100vw;
+    height: 5rem; 
+}
+
+nav h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1.2rem;  
+}
+
+nav button {
+    font-family: 'Roboto', sans-serif;
+    margin-right: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: none; 
+}
+
+.cookpot-image {
+    width: 10rem;
+    height: 10rem;
+}
+
 /* font-family: 'Roboto', sans-serif;
 
 COLORS
