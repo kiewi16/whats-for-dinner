@@ -27,10 +27,10 @@ function getRandomDish (dishArray) {
     } else if (dishArray === "desserts") {
         return desserts[randomIndex]
     }
-    console.log("randomIndex<>>", randomIndex)
-    console.log("dishArray[randomIndex]", dishArray[randomIndex])
-    console.log("dishArray<>>", dishArray)
-    console.log("sides<>>", sides)
+    // console.log("randomIndex<>>", randomIndex)
+    // console.log("dishArray[randomIndex]", dishArray[randomIndex])
+    // console.log("dishArray<>>", dishArray)
+    // console.log("sides<>>", sides)
     return dishArray[randomIndex]
 }
 
@@ -39,8 +39,8 @@ function displayRadioValue (e) {
     for (i = 0; i < radioButtons.length; i++) {
         if (radioButtons[i].checked) {
             var randomMeal = getRandomDish(radioButtons[i].value)
-            console.log("radioButtons[i].value", radioButtons[i].value)
-            console.log("random meal<>>", randomMeal)
+            // console.log("radioButtons[i].value", radioButtons[i].value)
+            // console.log("random meal<>>", randomMeal)
             selectedMealText.innerHTML = randomMeal
         }
 
