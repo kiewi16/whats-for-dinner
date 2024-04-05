@@ -13,10 +13,10 @@ letsCookButton.addEventListener('click', displayRadioValue)
 
 
 // functions
-
 function getRandomIndex(array) {
+    console.log(Math.floor(Math.random() * array.length))
     return Math.floor(Math.random() * array.length);
-  }
+}      
 
 function getRandomDish (dishArray) {
     var randomIndex = getRandomIndex(dishArray)
@@ -45,6 +45,6 @@ function displayRadioValue (e) {
         }
 
     }
-
+    document.getElementById('cookpot-image').style.display = 'none';
 }
 
