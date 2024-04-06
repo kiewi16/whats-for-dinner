@@ -11,8 +11,8 @@ I used HTML and CSS to build an application that matched a provided comp. When a
 5. Run open index.html in your terminal to open the application 
 
 ### Preview of App:
-* Here is a preview of my application: 
 
+![image](https://github.com/kiewi16/whats-for-dinner/assets/150177522/60f725a2-68ee-4e77-bb6b-fd243f294737)
 
 ### Context:
 I am in Module 1. I completed this project in 11 hours. 
