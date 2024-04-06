@@ -47,6 +47,11 @@ nav button {
 
 }
 
+.asterik {
+    color: red;
+    margin: 0;
+}
+
 .form-box{
     display: flex; 
     background-color: rgba(225, 225, 225, .9);
@@ -76,11 +81,11 @@ form label {
 form button {
     font-family: 'Roboto', sans-serif;
     background-color:#0fb9b1;
-    width: fit-content;
+    width: 8rem;
     border-radius: 0.2rem; 
     padding: 0.2rem; 
     margin-top: 1rem;
-    border: none, 
+    border: none; 
 }
 
 .cookpot-box {
